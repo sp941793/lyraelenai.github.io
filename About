@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Lyra Elenai</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Georgia', serif;
+      background: #fdf7f2;
+      color: #4b3d33;
+      line-height: 1.7;
+    }
+    .container {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+    h1 {
+      font-size: 2.8rem;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1.4rem;
+    }
+    a {
+      color: #7a5c4c;
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 4rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #8a776c;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>About Lyra Elenai</h1>
+    <p>Lyra Elenai is a soft voice rising through the silence — a sacred author, intuitive scribe, and guide for those returning to themselves after long journeys through numbness, confusion, or emotional disconnection.</p>
+    
+    <p>Her debut book, <em>Coming Home to Yourself</em>, offers a threshold for gentle healing. Each page was written with the intention to be a first breath — not a fix, but a quiet hand reaching out in the dark.</p>
+    
+    <p>Drawn to soul language, embodied remembrance, and the alchemy of stillness, Lyra writes not to teach, but to hold — to offer sacred spaces where sensitivity is no longer something to overcome, but something to come alive within.</p>
+
+    <p>Outside of writing, she tends to unseen altars: working with subtle energy, plant allies, and ancient memory. Her field speaks to those on the cusp — the quietly awakening, the quietly surviving, the quietly beginning again.</p>
+
+    <footer>
+      Website: <a href="https://lyraelenai.com" target="_blank">lyraelenai.com</a> |
+      Instagram: <a href="https://instagram.com/lyraelenai" target="_blank">@lyraelenai</a>
+    </footer>
+  </div>
+</body>
+</html>
+``
