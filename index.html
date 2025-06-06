@@ -9,48 +9,27 @@
       margin: 0;
       padding: 0;
       font-family: 'Georgia', serif;
-      background: #fdf7f2;
+      background: url('healing-background.png') no-repeat center center fixed;
+      background-size: cover;
       color: #4b3d33;
       line-height: 1.6;
     }
-
-    nav {
-      background: #f0e7df;
-      padding: 10px 20px;
-      text-align: center;
-      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
-    }
-
-    nav a {
-      margin: 0 15px;
-      color: #4b3d33;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 1rem;
-      transition: color 0.3s ease;
-    }
-
-    nav a:hover {
-      color: #7b6659;
-    }
-
     .container {
       max-width: 800px;
       margin: 60px auto;
       padding: 0 20px;
+      background: rgba(253, 247, 242, 0.8);
+      border-radius: 16px;
       text-align: center;
     }
-
     h1 {
       font-size: 2.5rem;
       margin-bottom: 0.5rem;
     }
-
     p {
       font-size: 1.1rem;
       margin-bottom: 1.5rem;
     }
-
     a.button {
       display: inline-block;
       margin-top: 1rem;
@@ -62,19 +41,21 @@
       font-weight: bold;
       transition: background 0.3s ease;
     }
-
     a.button:hover {
       background: #dbc9bd;
+    }
+    .nav {
+      margin-top: 20px;
+    }
+    .nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #4b3d33;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
-
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">Contents</a>
-  </nav>
-
   <div class="container">
     <h1>Welcome, sensitive soul</h1>
     <p>This is the soft beginning of something sacred.  
@@ -86,7 +67,9 @@
     <a class="button" href="https://www.amazon.co.uk/dp/B0FBS8MHBC" target="_blank" rel="noopener noreferrer">
       📘 Buy <em>Coming Home to Yourself</em> on Amazon
     </a>
+    <div class="nav">
+      <a href="about.html">About Lyra</a>
+    </div>
   </div>
-
 </body>
 </html>
